@@ -11,7 +11,7 @@
             "expectedmax": 100
         },
 
-        "FL_speed_request": {
+        "FL_rpm_request": {
             "type": "Uint",
             "startbyte": 2,
             "length": 2,
@@ -22,7 +22,7 @@
             "expectedmax": 20000
         },
 
-        "FL_torque_max_limit": {
+        "FL_torque_max_request": {
             "type": "Uint",
             "startbyte": 4,
             "length": 2,
@@ -33,7 +33,7 @@
             "expectedmax": 30
         },
 
-        "FL_torque_min_limit": {
+        "FL_torque_min_request": {
             "type": "Uint",
             "startbyte": 6,
             "length": 2,
@@ -55,7 +55,7 @@
             "expectedmax": 100
         },
 
-        "FR_speed_request": {
+        "FR_rpm_request": {
             "type": "Uint",
             "startbyte": 10,
             "length": 2,
@@ -66,7 +66,7 @@
             "expectedmax": 20000
         },
 
-        "FR_torque_max_limit": {
+        "FR_torque_max_request": {
             "type": "Uint",
             "startbyte": 12,
             "length": 2,
@@ -77,7 +77,7 @@
             "expectedmax": 30
         },
 
-        "FR_torque_min_limit": {
+        "FR_torque_min_request": {
             "type": "Uint",
             "startbyte": 14,
             "length": 2,
@@ -99,7 +99,7 @@
             "expectedmax": 100
         },
 
-        "RL_speed_request": {
+        "RL_rpm_request": {
             "type": "Uint",
             "startbyte": 18,
             "length": 2,
@@ -110,7 +110,7 @@
             "expectedmax": 20000
         },
 
-        "RL_torque_max_limit": {
+        "RL_torque_max_request": {
             "type": "Uint",
             "startbyte": 20,
             "length": 2,
@@ -121,7 +121,7 @@
             "expectedmax": 30
         },
 
-        "RL_torque_min_limit": {
+        "RL_torque_min_request": {
             "type": "Uint",
             "startbyte": 22,
             "length": 2,
@@ -143,7 +143,7 @@
             "expectedmax": 100
         },
 
-        "RR_speed_request": {
+        "RR_rpm_request": {
             "type": "Uint",
             "startbyte": 26,
             "length": 2,
@@ -154,7 +154,7 @@
             "expectedmax": 20000
         },
 
-        "RR_torque_max_limit": {
+        "RR_torque_max_request": {
             "type": "Uint",
             "startbyte": 28,
             "length": 2,
@@ -165,7 +165,7 @@
             "expectedmax": 30
         },
 
-        "RR_torque_min_limit": {
+        "RR_torque_min_request": {
             "type": "Uint",
             "startbyte": 30,
             "length": 2,
@@ -187,7 +187,7 @@
             "expectedmin": 0.000000,
             "expectedmax": 0.000000
         },
-        "FL_speed_rpm_current": {
+        "FL_rpm": {
             "type": "Float",
             "startbyte": 4,
             "length": 4,
@@ -197,7 +197,7 @@
             "expectedmin": 0.000000,
             "expectedmax": 0.000000
         },
-        "FL_speed_rpm_derivative": {
+        "FL_rpm_dt": {
             "type": "Float",
             "startbyte": 8,
             "length": 4,
@@ -781,7 +781,7 @@
             "expectedmin": 0.000000,
             "expectedmax": 0.000000
         },
-        "FR_speed_rpm_current": {
+        "FR_rpm": {
             "type": "Float",
             "startbyte": 4,
             "length": 4,
@@ -791,7 +791,7 @@
             "expectedmin": 0.000000,
             "expectedmax": 0.000000
         },
-        "FR_speed_rpm_derivative": {
+        "FR_rpm_dt": {
             "type": "Float",
             "startbyte": 8,
             "length": 4,
@@ -1375,7 +1375,7 @@
             "expectedmin": 0.000000,
             "expectedmax": 0.000000
         },
-        "RL_speed_rpm_current": {
+        "RL_rpm": {
             "type": "Float",
             "startbyte": 4,
             "length": 4,
@@ -1385,7 +1385,7 @@
             "expectedmin": 0.000000,
             "expectedmax": 0.000000
         },
-        "RL_speed_rpm_derivative": {
+        "RL_rpm_dt": {
             "type": "Float",
             "startbyte": 8,
             "length": 4,
@@ -1969,7 +1969,7 @@
             "expectedmin": 0.000000,
             "expectedmax": 0.000000
         },
-        "RR_speed_rpm_current": {
+        "RR_rpm": {
             "type": "Float",
             "startbyte": 4,
             "length": 4,
@@ -1979,7 +1979,7 @@
             "expectedmin": 0.000000,
             "expectedmax": 0.000000
         },
-        "RR_speed_rpm_derivative": {
+        "RR_rpm_dt": {
             "type": "Float",
             "startbyte": 8,
             "length": 4,
